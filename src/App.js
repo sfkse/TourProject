@@ -1,8 +1,15 @@
+import React from 'react';
+import Navbar from './components/navbar/Navbar';
+import Header from './components/header/Header';
+import Card from './components/cards/Card';
+
 const App = () => {
 
   return (
-    <div>
-      <h1>Styling in React</h1>     
+    <div className="App">
+      <Navbar />
+      <Header />
+      <Card />
     </div>
   );
 };
